@@ -1,0 +1,57 @@
+html {
+  padding: 20px;
+  background-image: url("./assets/images/brentwoodfountainandflowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  color: black;
+  background-color: rgba(255,255,255,0.75);
+}
+
+header {
+  background-color: rgb(50,50,50);
+  text-align: center;
+}
+
+.topSection, main, footer {
+  padding: 20px;
+}
+
+nav {
+  background-color: rgb(34, 47, 105);
+  color: white;
+  box-shadow: none;
+  border-bottom: 1px solid gray;
+}
+
+nav ul a {
+  color: white;
+}
+
+main, footer {
+  margin: 0px 20px 20px 20px;
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(34, 47, 105);
+  color: white;
+}
+
+.headPic {
+  padding: 20px;
+  border: 20px white solid;
+  background-image: url("./assets/images/bttabuildings1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 600px;
+}
