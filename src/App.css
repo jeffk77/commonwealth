@@ -1,5 +1,5 @@
 html {
-  padding: 20px;
+  padding: 30px;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -19,6 +19,11 @@ body {
   margin: 0px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 10px;
+}
+
 header {
   background-image: url("./assets/images/hardwoodFloors.jpeg");
   background-size: cover;
@@ -32,7 +37,7 @@ footer {
   text-align: center;
 }
 
-nav, footer, .infoBar, .contactBox {
+nav, footer, .infoBar, .contactBox, .aboutBox {
   background-color: rgb(48, 111, 170);
   color: white;
 }
@@ -49,14 +54,14 @@ nav ul a {
 
 .contactBox {
   text-align: center;
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 20px;
 }
 
 .logoBox {
   text-align: center;
   background-color: white;
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 20px;
 }
 
@@ -65,15 +70,22 @@ nav ul a {
   padding: 20px;
 }
 
-.bonusBox h2 {
+.bonusBox h2, .specializeBox h2, .aboutBox h2, .saleBox h2, .saleBox h4 {
   text-align: center;
 }
 
 .bonusBox {
-  padding: 20px;
+  padding: 50px;
   background-image: url("./assets/images/paintingRoom.jpeg");
   background-size: cover;
   background-position: center;
+  margin-bottom: 20px;
+}
+
+.specializeBox, .saleBox {
+  padding: 50px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .topImg {
@@ -83,5 +95,20 @@ nav ul a {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.aboutImg {
+  height: 300px;
+  background-image: url("./assets/images/renoLivingRoom.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.aboutBox {
+  padding: 50px;
   margin-bottom: 20px;
 }
