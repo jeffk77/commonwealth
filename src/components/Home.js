@@ -17,6 +17,14 @@ import kitchBath4 from '../assets/images/kitchBath4.jpeg';
 
 import glazedWindows from '../assets/images/glazedWindows.jpeg';
 
+import kitchenThumbnail from '../assets/images/kitchenThumbnail.jpg';
+import bathroomThumbnail from '../assets/images/bathroomThumbnail.jpg';
+import basementThumbnail from '../assets/images/basementThumbnail.jpeg';
+import stoneworkThumbnail from '../assets/images/stoneworkThumbnail.jpg';
+import deckThumbnail from '../assets/images/deck&fenceThumbnail.jpg';
+import interiorThumbnail from '../assets/images/interiorThumbnail.png';
+
+
 const Home = () => (
   <div>
     <div className="contactBox">
@@ -53,7 +61,7 @@ const Home = () => (
           with your new 55” Brand Name High Definition TV as a bonus when you let us do a complete
           basement finishing for you. Our professional crews will turn your unused area into a
           beautiful and functional part of your home.<br /><br />
-          
+
           We are specialists in design and finishing of basement areas that will add a truly fabulous
           new living space for entertaining, personal pleasure or add a private space for a family
           member or visiting guests. Together we design this new living space tailored to your
@@ -114,7 +122,7 @@ const Home = () => (
         <p>
           At Commonwealth Home Design we pledge to satisfy you and make your living space unique to your
           personal lifestyle.
-  
+
           We will cater to your every need to ensure our project exceeds your expectations and brings rave
           reviews from you the homeowners, from relatives, friends and neighbours. Rest assured we will
           complete your renovation in a timely fashion and when we leave the residence it will be spotless
@@ -122,7 +130,7 @@ const Home = () => (
           Whether it is a kitchen, bathroom remodel or adding additional living space by utilizing your
           basement area to create a family retreat, entertainment area or guest rooms for loved ones or friends,
           we will guide you with our professional experience and expertise.<br /><br />
-            
+
           We also specialize in exterior design that will give your home a gorgeous new and eye catching look.
           Please refer to our Landscaping Gallery, Deck Gallery and Walkway Gallery. We offer high quality
           insulated replacement windows that come with a lifetime warranty plus high quality insulated
@@ -131,7 +139,7 @@ const Home = () => (
           interior doors and trim work, hardwood flooring, ceramic tiling, painting services and landscape
           design to beautify the exterior of your home including patterned concrete drives and walkways
           in complimentary colours to match your existing facade and trim work.<br /><br />
-            
+
           Contact us and we will discuss all of your needs with our no obligation in home consultation.
           We have satisfied hundreds and hundreds of families in our 45 years doing professional
           interior and exterior makeovers. We will always be there for you after the completion
@@ -151,7 +159,11 @@ const Home = () => (
 
       <div className="container">
         <br />
-        <img className="materialboxed responsive-img" src={glazedWindows} alt="Glazed Windows Diagram Pic" />
+        <div className="row">
+          <div className="col s8 m8 l8 offset-l2 offset-m2 offset-s2">
+            <img className="materialboxed responsive-img center-align" src={glazedWindows} alt="Glazed Windows Diagram Pic" />
+          </div>
+        </div>
 
         <p>
           Get ready for fall and winter with our High Quality replacement thermal window special. We will upgrade
@@ -164,7 +176,69 @@ const Home = () => (
       </div>
     </div>
 
-  </div>
-);
+    <div className="galleryBox">
+      <h2>CLICK BELOW TO VIEW A GALLERY OF PROJECTS</h2>
 
+      <div className="row">
+      
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={kitchenThumbnail} alt="Kitchen Gallery" />
+              <span className="card-title">KITCHENS</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={bathroomThumbnail} alt="Bathroom Gallery" />
+              <span className="card-title">BATHROOMS</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={basementThumbnail} alt="Basement Gallery" />
+              <span className="card-title">BASEMENTS</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={stoneworkThumbnail} alt="Stonework Gallery" />
+              <span className="card-title">STONEWORK</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={deckThumbnail} alt="Deck & Fence Gallery" />
+              <span className="card-title">DECK & FENCE</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="col s12 m2 l2">
+          <div className="card">
+            <div className="card-image">
+              <img src={interiorThumbnail} alt="Interior Shutters Gallery" />
+              <span className="card-title">INTERIOR SHUTTERS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  );
+    
 export default Home;

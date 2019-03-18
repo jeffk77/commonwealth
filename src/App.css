@@ -37,15 +37,22 @@ footer {
   text-align: center;
 }
 
-nav, footer, .infoBar, .contactBox, .aboutBox {
+nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox {
   background-color: rgb(48, 111, 170);
   color: white;
+}
+
+.galleryBox {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 50px;
 }
 
 .infoBar {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  font-size: 1.25em;
 }
 
 nav ul a {
@@ -58,11 +65,15 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-.logoBox {
+.logoBox, .specializeBox, .saleBox {
   text-align: center;
   background-color: white;
   padding: 50px;
   margin-bottom: 20px;
+}
+
+.saleBox p {
+  text-align: left;
 }
 
 .logoC {
@@ -70,7 +81,7 @@ nav ul a {
   padding: 20px;
 }
 
-.bonusBox h2, .specializeBox h2, .aboutBox h2, .saleBox h2, .saleBox h4 {
+.bonusBox h2, .specializeBox h2, .aboutBox h2, .saleBox h2, .saleBox h4, .galleryBox h2 {
   text-align: center;
 }
 
@@ -82,33 +93,64 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-.specializeBox, .saleBox {
-  padding: 50px;
-  background-color: white;
+.topImg, .aboutImg {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   margin-bottom: 20px;
 }
 
 .topImg {
-  height: 300px;
   background-image: url("./assets/images/renovatedKitchen.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
 }
 
 .aboutImg {
-  height: 300px;
   background-image: url("./assets/images/renoLivingRoom.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
 }
 
 .aboutBox {
   padding: 50px;
   margin-bottom: 20px;
+}
+
+.galleryThumbnail1, .galleryThumbnail2, .galleryThumbnail3, .galleryThumbnail4, .galleryThumbnail5, .galleryThumbnail6 {
+  background-size: cover;
+  background-position: fixed;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px 2px white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.galleryThumbnail1 {
+  background-image: url("./assets/images/kitchenThumbnail.jpg");
+}
+
+.galleryThumbnail2 {
+  background-image: url("./assets/images/bathroomThumbnail.jpg");
+}
+
+.galleryThumbnail3 {
+  background-image: url("./assets/images/basementThumbnail.jpeg");
+}
+
+.galleryThumbnail4 {
+  background-image: url("./assets/images/stoneworkThumbnail.jpg");
+}
+
+.galleryThumbnail5 {
+  background-image: url("./assets/images/deck&fenceThumbnail.jpg");
+}
+
+.galleryThumbnail6 {
+  background-image: url("./assets/images/interiorThumbnail.png");
+}
+
+.card-title {
+  width: 100%;
+  background-color: rgba(255,255,255,0.75);
+  color: black;
 }
