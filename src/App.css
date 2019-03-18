@@ -125,32 +125,13 @@ nav ul a {
   padding: 10px;
 }
 
-.galleryThumbnail1 {
-  background-image: url("./assets/images/kitchenThumbnail.jpg");
-}
-
-.galleryThumbnail2 {
-  background-image: url("./assets/images/bathroomThumbnail.jpg");
-}
-
-.galleryThumbnail3 {
-  background-image: url("./assets/images/basementThumbnail.jpeg");
-}
-
-.galleryThumbnail4 {
-  background-image: url("./assets/images/stoneworkThumbnail.jpg");
-}
-
-.galleryThumbnail5 {
-  background-image: url("./assets/images/deck&fenceThumbnail.jpg");
-}
-
-.galleryThumbnail6 {
-  background-image: url("./assets/images/interiorThumbnail.png");
-}
-
 .card-title {
   width: 100%;
-  background-color: rgba(255,255,255,0.75);
-  color: black;
+  background-color: rgba(0,0,0,0.75);
+  padding: 10px;
+}
+
+.card .card-image .card-title {
+  padding: 10px;
+  margin-bottom: 30px;
 }

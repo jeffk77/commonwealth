@@ -24,6 +24,30 @@ import stoneworkThumbnail from '../assets/images/stoneworkThumbnail.jpg';
 import deckThumbnail from '../assets/images/deck&fenceThumbnail.jpg';
 import interiorThumbnail from '../assets/images/interiorThumbnail.png';
 
+import kitch1 from '../assets/images/kitchen1.jpg';
+import kitch2 from '../assets/images/kitchen2.jpg';
+import kitch3 from '../assets/images/kitchen3.jpg';
+import kitch4 from '../assets/images/kitchen4.jpeg';
+import kitch5 from '../assets/images/kitchen5.jpeg';
+import kitch6 from '../assets/images/kitchen6.jpeg';
+import kitch7 from '../assets/images/kitchen7.jpeg';
+import kitch8 from '../assets/images/kitchen8.jpg';
+import kitch9 from '../assets/images/kitchen9.jpg';
+import kitch10 from '../assets/images/kitchen10.jpg';
+import kitch11 from '../assets/images/kitchen11.jpg';
+import kitch12 from '../assets/images/kitchen12.jpg';
+import kitch13 from '../assets/images/kitchen13.jpg';
+import kitch14 from '../assets/images/kitchen14.jpg';
+import kitch15 from '../assets/images/kitchen15.jpg';
+import kitch16 from '../assets/images/kitchen16.jpg';
+import kitch17 from '../assets/images/kitchen17.jpg';
+import kitch18 from '../assets/images/kitchen18.jpg';
+import kitch19 from '../assets/images/kitchen19.jpg';
+import kitch20 from '../assets/images/kitchen20.jpg';
+import kitch21 from '../assets/images/kitchen21.jpg';
+import kitch22 from '../assets/images/kitchen22.jpg';
+import kitch23 from '../assets/images/kitchen23.jpg';
+
 
 const Home = () => (
   <div>
@@ -180,13 +204,95 @@ const Home = () => (
       <h2>CLICK BELOW TO VIEW A GALLERY OF PROJECTS</h2>
 
       <div className="row">
-      
+
         <div className="col s12 m2 l2">
           <div className="card">
             <div className="card-image">
               <img src={kitchenThumbnail} alt="Kitchen Gallery" />
-              <span className="card-title">KITCHENS</span>
+              <a className="modal-trigger" href="#kitchGalleryModal"><span className="card-title">KITCHENS</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="kitchGalleryModal" class="modal">
+          <div className="modal-content">
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src={kitch1} alt="Kitchen Gallery 1" />
+                </li>
+                <li>
+                  <img src={kitch2} alt="Kitchen Gallery 2" />
+                </li>
+                <li>
+                  <img src={kitch3} alt="Kitchen Gallery 3" />
+                </li>
+                <li>
+                  <img src={kitch4} alt="Kitchen Gallery 4" />
+                </li>
+                <li>
+                  <img src={kitch5} alt="Kitchen Gallery 5" />
+                </li>
+                <li>
+                  <img src={kitch6} alt="Kitchen Gallery 6" />
+                </li>
+                <li>
+                  <img src={kitch7} alt="Kitchen Gallery 7" />
+                </li>
+                <li>
+                  <img src={kitch8} alt="Kitchen Gallery 8" />
+                </li>
+                <li>
+                  <img src={kitch9} alt="Kitchen Gallery 9" />
+                </li>
+                <li>
+                  <img src={kitch10} alt="Kitchen Gallery 10" />
+                </li>
+                <li>
+                  <img src={kitch11} alt="Kitchen Gallery 11" />
+                </li>
+                <li>
+                  <img src={kitch12} alt="Kitchen Gallery 12" />
+                </li>
+                <li>
+                  <img src={kitch13} alt="Kitchen Gallery 13" />
+                </li>
+                <li>
+                  <img src={kitch14} alt="Kitchen Gallery 14" />
+                </li>
+                <li>
+                  <img src={kitch15} alt="Kitchen Gallery 15" />
+                </li>
+                <li>
+                  <img src={kitch16} alt="Kitchen Gallery 16" />
+                </li>
+                <li>
+                  <img src={kitch17} alt="Kitchen Gallery 17" />
+                </li>
+                <li>
+                  <img src={kitch18} alt="Kitchen Gallery 18" />
+                </li>
+                <li>
+                  <img src={kitch19} alt="Kitchen Gallery 19" />
+                </li>
+                <li>
+                  <img src={kitch20} alt="Kitchen Gallery 20" />
+                </li>
+                <li>
+                  <img src={kitch21} alt="Kitchen Gallery 21" />
+                </li>
+                <li>
+                  <img src={kitch22} alt="Kitchen Gallery 22" />
+                </li>
+                <li>
+                  <img src={kitch23} alt="Kitchen Gallery 23" />
+                </li>
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
@@ -239,6 +345,6 @@ const Home = () => (
 
     </div>
   </div>
-  );
-    
+);
+
 export default Home;
