@@ -216,8 +216,8 @@ const Home = () => (
 
         <div id="kitchGalleryModal" class="modal">
           <div className="modal-content">
-            <div class="slider">
-              <ul class="slides">
+            <div className="slider">
+              <ul className="slides">
                 <li>
                   <img src={kitch1} alt="Kitchen Gallery 1" />
                 </li>
