@@ -65,7 +65,7 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-.logoBox, .specializeBox, .saleBox {
+.logoBox, .specializeBox, .saleBox, .servicesBox {
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -81,7 +81,7 @@ nav ul a {
   padding: 20px;
 }
 
-.bonusBox h2, .specializeBox h2, .aboutBox h2, .saleBox h2, .saleBox h4, .galleryBox h2 {
+.bonusBox h2, .specializeBox h2, .aboutBox h2, .saleBox h2, .saleBox h4, .galleryBox h2, .servicesBox h2 {
   text-align: center;
 }
 
@@ -134,4 +134,17 @@ nav ul a {
 .card .card-image .card-title {
   padding: 10px;
   margin-bottom: 30px;
+}
+
+.indicators {
+  display: none;
+}
+
+.servicesBox li {
+  font-size: 1.25em;
+  list-style-type: circle;
+}
+
+.servicesBox p {
+  font-size: 1.25em;
 }

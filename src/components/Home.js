@@ -24,29 +24,130 @@ import stoneworkThumbnail from '../assets/images/stoneworkThumbnail.jpg';
 import deckThumbnail from '../assets/images/deck&fenceThumbnail.jpg';
 import interiorThumbnail from '../assets/images/interiorThumbnail.png';
 
-import kitch1 from '../assets/images/kitchen1.jpg';
-import kitch2 from '../assets/images/kitchen2.jpg';
-import kitch3 from '../assets/images/kitchen3.jpg';
-import kitch4 from '../assets/images/kitchen4.jpeg';
-import kitch5 from '../assets/images/kitchen5.jpeg';
-import kitch6 from '../assets/images/kitchen6.jpeg';
-import kitch7 from '../assets/images/kitchen7.jpeg';
-import kitch8 from '../assets/images/kitchen8.jpg';
-import kitch9 from '../assets/images/kitchen9.jpg';
-import kitch10 from '../assets/images/kitchen10.jpg';
-import kitch11 from '../assets/images/kitchen11.jpg';
-import kitch12 from '../assets/images/kitchen12.jpg';
-import kitch13 from '../assets/images/kitchen13.jpg';
-import kitch14 from '../assets/images/kitchen14.jpg';
-import kitch15 from '../assets/images/kitchen15.jpg';
-import kitch16 from '../assets/images/kitchen16.jpg';
-import kitch17 from '../assets/images/kitchen17.jpg';
-import kitch18 from '../assets/images/kitchen18.jpg';
-import kitch19 from '../assets/images/kitchen19.jpg';
-import kitch20 from '../assets/images/kitchen20.jpg';
-import kitch21 from '../assets/images/kitchen21.jpg';
-import kitch22 from '../assets/images/kitchen22.jpg';
-import kitch23 from '../assets/images/kitchen23.jpg';
+import framedHouse from '../assets/images/framedHouse.jpg';
+
+import k1 from '../assets/images/kitchens/1.jpg';
+import k2 from '../assets/images/kitchens/2.jpg';
+import k3 from '../assets/images/kitchens/3.jpg';
+import k4 from '../assets/images/kitchens/4.jpg';
+import k5 from '../assets/images/kitchens/5.jpg';
+import k6 from '../assets/images/kitchens/6.jpg';
+import k7 from '../assets/images/kitchens/7.jpg';
+import k8 from '../assets/images/kitchens/8.jpg';
+import k9 from '../assets/images/kitchens/9.jpg';
+import k10 from '../assets/images/kitchens/10.jpg';
+import k11 from '../assets/images/kitchens/11.jpg';
+import k12 from '../assets/images/kitchens/12.jpg';
+import k13 from '../assets/images/kitchens/13.jpg';
+import k14 from '../assets/images/kitchens/14.jpg';
+import k15 from '../assets/images/kitchens/15.jpg';
+import k16 from '../assets/images/kitchens/16.jpg';
+import k17 from '../assets/images/kitchens/17.jpg';
+import k18 from '../assets/images/kitchens/18.jpg';
+import k19 from '../assets/images/kitchens/19.jpg';
+import k20 from '../assets/images/kitchens/20.jpg';
+import k21 from '../assets/images/kitchens/21.jpg';
+import k22 from '../assets/images/kitchens/22.jpg';
+import k23 from '../assets/images/kitchens/23.jpg';
+import k24 from '../assets/images/kitchens/24.jpg';
+import k25 from '../assets/images/kitchens/25.jpg';
+import k26 from '../assets/images/kitchens/26.jpg';
+import k27 from '../assets/images/kitchens/27.jpg';
+import k28 from '../assets/images/kitchens/28.png';
+import k29 from '../assets/images/kitchens/29.jpg';
+import k30 from '../assets/images/kitchens/30.jpg';
+import k31 from '../assets/images/kitchens/31.jpg';
+import k32 from '../assets/images/kitchens/32.jpg';
+import k33 from '../assets/images/kitchens/33.jpg';
+import k34 from '../assets/images/kitchens/34.jpg';
+import k35 from '../assets/images/kitchens/35.jpg';
+import k36 from '../assets/images/kitchens/36.jpg';
+
+import b1 from '../assets/images/bathrooms/1.jpg';
+import b2 from '../assets/images/bathrooms/2.jpg';
+import b3 from '../assets/images/bathrooms/3.jpg';
+import b4 from '../assets/images/bathrooms/4.jpg';
+import b5 from '../assets/images/bathrooms/5.jpg';
+import b6 from '../assets/images/bathrooms/6.jpg';
+import b7 from '../assets/images/bathrooms/7.jpg';
+import b8 from '../assets/images/bathrooms/8.jpg';
+
+import bt1 from '../assets/images/basements/1.jpg';
+import bt2 from '../assets/images/basements/2.jpg';
+import bt3 from '../assets/images/basements/3.jpg';
+import bt4 from '../assets/images/basements/4.jpg';
+import bt5 from '../assets/images/basements/5.jpg';
+import bt6 from '../assets/images/basements/6.jpg';
+import bt7 from '../assets/images/basements/7.jpg';
+import bt8 from '../assets/images/basements/8.jpg';
+import bt9 from '../assets/images/basements/9.jpg';
+import bt10 from '../assets/images/basements/10.jpg';
+import bt11 from '../assets/images/basements/11.jpg';
+import bt12 from '../assets/images/basements/12.jpg';
+import bt13 from '../assets/images/basements/13.jpg';
+
+import s1 from '../assets/images/stonework/1.jpg';
+import s2 from '../assets/images/stonework/2.jpg';
+import s3 from '../assets/images/stonework/3.png';
+import s4 from '../assets/images/stonework/4.jpg';
+import s5 from '../assets/images/stonework/5.png';
+import s6 from '../assets/images/stonework/6.jpg';
+import s7 from '../assets/images/stonework/7.png';
+import s8 from '../assets/images/stonework/8.jpg';
+import s9 from '../assets/images/stonework/9.jpg';
+import s10 from '../assets/images/stonework/10.png';
+import s11 from '../assets/images/stonework/11.jpg';
+import s12 from '../assets/images/stonework/12.jpg';
+import s13 from '../assets/images/stonework/13.jpg';
+import s14 from '../assets/images/stonework/14.jpg';
+import s15 from '../assets/images/stonework/15.png';
+import s16 from '../assets/images/stonework/16.png';
+import s17 from '../assets/images/stonework/17.jpg';
+import s18 from '../assets/images/stonework/18.jpg';
+import s19 from '../assets/images/stonework/19.jpg';
+import s20 from '../assets/images/stonework/20.jpg';
+import s21 from '../assets/images/stonework/21.jpg';
+import s22 from '../assets/images/stonework/22.jpg';
+import s23 from '../assets/images/stonework/23.jpg';
+import s24 from '../assets/images/stonework/24.jpg';
+import s25 from '../assets/images/stonework/25.jpg';
+import s26 from '../assets/images/stonework/26.jpg';
+import s27 from '../assets/images/stonework/27.jpg';
+import s28 from '../assets/images/stonework/28.jpg';
+import s29 from '../assets/images/stonework/29.jpg';
+import s30 from '../assets/images/stonework/30.jpg';
+import s31 from '../assets/images/stonework/31.jpg';
+import s32 from '../assets/images/stonework/32.jpg';
+import s33 from '../assets/images/stonework/33.jpg';
+import s34 from '../assets/images/stonework/34.jpg';
+import s35 from '../assets/images/stonework/35.jpg';
+import s36 from '../assets/images/stonework/36.jpg';
+import s37 from '../assets/images/stonework/36.jpg';
+import s38 from '../assets/images/stonework/36.jpg';
+import s39 from '../assets/images/stonework/36.jpg';
+import s40 from '../assets/images/stonework/36.jpg';
+
+import d1 from '../assets/images/deckfence/1.jpg';
+import d2 from '../assets/images/deckfence/2.jpg';
+import d3 from '../assets/images/deckfence/3.jpg';
+import d4 from '../assets/images/deckfence/4.jpg';
+import d5 from '../assets/images/deckfence/5.jpg';
+import d6 from '../assets/images/deckfence/6.jpg';
+import d7 from '../assets/images/deckfence/7.jpg';
+import d8 from '../assets/images/deckfence/8.jpg';
+
+import i1 from '../assets/images/interiorshutters/1.jpg';
+import i2 from '../assets/images/interiorshutters/2.png';
+import i3 from '../assets/images/interiorshutters/3.jpg';
+import i4 from '../assets/images/interiorshutters/4.jpg';
+import i5 from '../assets/images/interiorshutters/5.jpg';
+import i6 from '../assets/images/interiorshutters/6.jpg';
+import i7 from '../assets/images/interiorshutters/7.jpg';
+import i8 from '../assets/images/interiorshutters/8.jpg';
+import i9 from '../assets/images/interiorshutters/9.png';
+import i10 from '../assets/images/interiorshutters/10.jpg';
+import i11 from '../assets/images/interiorshutters/11.jpg';
+import i12 from '../assets/images/interiorshutters/12.jpg';
 
 
 const Home = () => (
@@ -214,78 +315,117 @@ const Home = () => (
           </div>
         </div>
 
-        <div id="kitchGalleryModal" class="modal">
+        <div id="kitchGalleryModal" className="modal">
           <div className="modal-content">
             <div className="slider">
               <ul className="slides">
                 <li>
-                  <img src={kitch1} alt="Kitchen Gallery 1" />
+                  <img src={k1} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch2} alt="Kitchen Gallery 2" />
+                  <img src={k2} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch3} alt="Kitchen Gallery 3" />
+                  <img src={k3} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch4} alt="Kitchen Gallery 4" />
+                  <img src={k4} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch5} alt="Kitchen Gallery 5" />
+                  <img src={k5} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch6} alt="Kitchen Gallery 6" />
+                  <img src={k6} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch7} alt="Kitchen Gallery 7" />
+                  <img src={k7} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch8} alt="Kitchen Gallery 8" />
+                  <img src={k8} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch9} alt="Kitchen Gallery 9" />
+                  <img src={k9} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch10} alt="Kitchen Gallery 10" />
+                  <img src={k10} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch11} alt="Kitchen Gallery 11" />
+                  <img src={k11} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch12} alt="Kitchen Gallery 12" />
+                  <img src={k12} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch13} alt="Kitchen Gallery 13" />
+                  <img src={k13} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch14} alt="Kitchen Gallery 14" />
+                  <img src={k14} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch15} alt="Kitchen Gallery 15" />
+                  <img src={k15} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch16} alt="Kitchen Gallery 16" />
+                  <img src={k16} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch17} alt="Kitchen Gallery 17" />
+                  <img src={k17} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch18} alt="Kitchen Gallery 18" />
+                  <img src={k18} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch19} alt="Kitchen Gallery 19" />
+                  <img src={k19} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch20} alt="Kitchen Gallery 20" />
+                  <img src={k20} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch21} alt="Kitchen Gallery 21" />
+                  <img src={k21} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch22} alt="Kitchen Gallery 22" />
+                  <img src={k22} alt="Kitchen Gallery" />
                 </li>
                 <li>
-                  <img src={kitch23} alt="Kitchen Gallery 23" />
+                  <img src={k23} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k24} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k25} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k26} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k27} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k28} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k29} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k30} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k31} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k32} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k33} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k34} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k35} alt="Kitchen Gallery" />
+                </li>
+                <li>
+                  <img src={k36} alt="Kitchen Gallery" />
                 </li>
               </ul>
           </div>
@@ -300,8 +440,45 @@ const Home = () => (
           <div className="card">
             <div className="card-image">
               <img src={bathroomThumbnail} alt="Bathroom Gallery" />
-              <span className="card-title">BATHROOMS</span>
+              <a className="modal-trigger" href="#bathroomGalleryModal"><span className="card-title">BATHROOMS</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="bathroomGalleryModal" className="modal">
+          <div className="modal-content">
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={b1} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b2} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b3} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b4} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b5} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b6} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b7} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b8} alt="Bathroom Gallery" />
+                </li>
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
@@ -309,8 +486,60 @@ const Home = () => (
           <div className="card">
             <div className="card-image">
               <img src={basementThumbnail} alt="Basement Gallery" />
-              <span className="card-title">BASEMENTS</span>
+              <a className="modal-trigger" href="#basementGalleryModal"><span className="card-title">BASEMENTS</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="basementGalleryModal" className="modal">
+          <div className="modal-content">
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={bt1} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt2} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt3} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt4} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt5} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt6} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt7} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt8} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt9} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt10} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt11} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt12} alt="Basement Gallery" />
+                </li>
+                <li>
+                  <img src={bt13} alt="Basement Gallery" />
+                </li>
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
@@ -318,8 +547,143 @@ const Home = () => (
           <div className="card">
             <div className="card-image">
               <img src={stoneworkThumbnail} alt="Stonework Gallery" />
-              <span className="card-title">STONEWORK</span>
+              <a className="modal-trigger" href="#stoneworkGalleryModal"><span className="card-title">STONEWORK</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="stoneworkGalleryModal" className="modal">
+          <div className="modal-content">
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={s1} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s2} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s3} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s4} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s5} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s6} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s7} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s8} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s9} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s10} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s11} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s12} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s13} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s14} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s15} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s16} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s17} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s18} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s19} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s20} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s21} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s22} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s23} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s24} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s25} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s26} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s27} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s28} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s29} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s30} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s31} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s32} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s33} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s34} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s35} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s36} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s37} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s38} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s39} alt="Stonework Gallery" />
+                </li>
+                <li>
+                  <img src={s40} alt="Stonework Gallery" />
+                </li>
+
+
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
@@ -327,8 +691,45 @@ const Home = () => (
           <div className="card">
             <div className="card-image">
               <img src={deckThumbnail} alt="Deck & Fence Gallery" />
-              <span className="card-title">DECK & FENCE</span>
+              <a className="modal-trigger" href="#deckGalleryModal"><span className="card-title">DECK & FENCE</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="deckGalleryModal" className="modal">
+          <div className="modal-content">
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={d1} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d2} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d3} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d4} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d5} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d6} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d7} alt="Deck & Fence Gallery" />
+                </li>
+                <li>
+                  <img src={d8} alt="Deck & Fence Gallery" />
+                </li>
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
@@ -336,14 +737,102 @@ const Home = () => (
           <div className="card">
             <div className="card-image">
               <img src={interiorThumbnail} alt="Interior Shutters Gallery" />
-              <span className="card-title">INTERIOR SHUTTERS</span>
+              <a className="modal-trigger" href="#intshuttersGalleryModal"><span className="card-title">SHUTTERS</span></a>
             </div>
+          </div>
+        </div>
+
+        <div id="intshuttersGalleryModal" className="modal">
+          <div className="modal-content">
+            <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={i1} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i2} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i3} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i4} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i5} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i6} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i7} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i8} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i9} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i10} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i11} alt="Interior Shutters Gallery" />
+                </li>
+                <li>
+                  <img src={i12} alt="Interior Shutters Gallery" />
+                </li>
+              </ul>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn-flat">Close</a>
           </div>
         </div>
 
       </div>
 
     </div>
+
+    <div className="servicesBox">
+        <h2>WE ARE A FULL SERVICE RENOVATION & HOME IMPROVEMENT COMPANY</h2>
+
+        <div className="container">
+          <br />
+          <div className="row">
+            <div className="col s8 m8 l8 offset-l2 offset-m2 offset-s2">
+              <img className="responsive-img center-align" src={framedHouse} alt="Framed House Diagram Pic" />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col s12 m12 l6">
+              <ul>
+                <li>Additions (YES)</li>
+                <li>Kitchen Remodel (YES)</li>
+                <li>Bathroom Remodel (YES)</li>
+                <li>Basement Finishing (YES)</li>
+                <li>Exterior Remodel (YES)</li>
+              </ul>
+            </div>
+            <div className="col s12 m12 l6">
+              <ul>
+                <li>Landscape Design (YES)</li>
+                <li>Window & Door Replacement (YES)</li>
+                <li>Flooring of all types (YES)</li>
+                <li>Lifetime Roofing (YES)</li>
+                <li>Exterior & Interior Waterproofing (YES)</li>
+              </ul>
+            </div>
+            <p>Driveways & Walkways - patterned concrete - slate - flagstone - interlock & more (YES)</p>
+          </div>
+
+          <h4>We do it all - BIG or small. Call us for a no obligation quote.</h4>
+
+        </div>
+      </div>
+
   </div>
 );
 
