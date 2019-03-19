@@ -833,6 +833,8 @@ const Home = () => (
         </div>
       </div>
 
+      <div className="lowerImg parallax"></div>
+
   </div>
 );
 

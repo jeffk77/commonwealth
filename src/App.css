@@ -93,7 +93,7 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-.topImg, .aboutImg {
+.topImg, .aboutImg, .lowerImg {
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -108,6 +108,10 @@ nav ul a {
 
 .aboutImg {
   background-image: url("./assets/images/renoLivingRoom.jpeg");
+}
+
+.lowerImg {
+  background-image: url("");
 }
 
 .aboutBox {
