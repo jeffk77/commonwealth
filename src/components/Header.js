@@ -20,17 +20,6 @@ const Header = () => (
     </header>
     
     <div className="infoBar">
-      <div className="row">
-        <div className="col s4">
-          Expect More From Us!
-        </div>
-        <div className="col s4">
-          45 Years Experience
-        </div>
-        <div className="col s4">
-          Licensed and Insured
-        </div>
-      </div>
     </div>
 
     <div className="topImg parallax"></div>

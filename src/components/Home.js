@@ -153,28 +153,66 @@ import i12 from '../assets/images/interiorshutters/12.jpg';
 const Home = () => (
   <div>
     <div className="contactBox">
-      <h1>"Our Quality Speaks for Itself"</h1>
+      <h1>"Our Quality Speaks for Itself"</h1><br />
       <div className="row">
-        <div className="col s6">
-          <h2>BARRIE</h2>
-          <h4>ALLISTON<br />
-            ANGUS</h4>
-          <h2>705-984-3364</h2>
-        </div>
-        <div className="col s6">
-          <h2>OSHAWA</h2>
-          <h4>WHITBY<br />
-            AJAX</h4>
-          <h2>289-404-2888</h2>
-        </div>
+          <h2>HAMILTON</h2>
+          <h2>905-572-7283</h2>
       </div>
     </div>
 
     <div className="logoBox">
       <img className="responsive-img logoC" src={guarantee100} alt="100% Guaranteed" />
-      <img className="responsive-img logoC" src={anniversaryLogo} alt="Anniversary Logo" />
       <img className="responsive-img logoC" src={hgtvLogo} alt="HGTV Logo" />
       <img className="responsive-img logoC" src={randrecommended} alt="Rated & Recommended" />
+    </div>
+
+    <div className="saleBox">
+      <h2>SPECIAL ON HIGH QUALITY REPLACEMENT WINDOWS</h2>
+      <h4>TRIPLE GLAZED WINDOWS FOR THE PRICE OF DOUBLE GLAZED</h4>
+
+      <div className="container">
+        <br />
+        <div className="row">
+          <div className="col s8 m8 l8 offset-l2 offset-m2 offset-s2">
+            <img className="materialboxed responsive-img center-align" src={glazedWindows} alt="Glazed Windows Diagram Pic" />
+          </div>
+        </div>
+
+        <p>
+          Get ready for fall and winter with our High Quality replacement thermal window special. We will upgrade
+          your thermal glass from double glazed to triple glazed at no charge to you so you may enjoy the great
+          energy savings with triple glazing. The benefits of low E argon triple glazed replacement windows will
+          save you money and will give you increased comfort year round and are totally maintenance free. We have              many styles to choose from for your individual taste and every style of home. Our premium quality windows
+          will give you peace of mind for years to come. Let us show you the benefits with an in home no cost demonstration.
+        </p>
+
+      </div>
+    </div>
+
+    <div className="specializeBox">
+      <div className="container">
+        <h2>WE SPECIALIZE IN KITCHEN, BATHROOM REMODELS & BASEMENT REFINISHING</h2>
+        <br />
+        <div className="row">
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={kitchBath1} alt="Kitchen/Bath 1 Pic" />
+          </div>
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={kitchBath2} alt="Kitchen/Bath 2 Pic" />
+          </div>
+        </div><br />
+        <div className="row">
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={kitchBath3} alt="Kitchen/Bath 3 Pic" />
+          </div>
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={kitchBath4} alt="Kitchen/Bath 4 Pic" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <h4>Kitchen and bathroom remodels are a wise and prudent investment for your home that will add
+          significant value and pleasure for years to come. Call us for a no obligation consultation.</h4>
     </div>
 
     <div className="bonusBox">
@@ -214,32 +252,6 @@ const Home = () => (
       </div>
     </div>
 
-    <div className="specializeBox">
-      <div className="container">
-        <h2>WE SPECIALIZE IN KITCHEN, BATHROOM REMODELS & BASEMENT REFINISHING</h2>
-        <br />
-        <div className="row">
-          <div className="col s12 m12 l6">
-            <img className="materialboxed expandImg responsive-img" src={kitchBath1} alt="Kitchen/Bath 1 Pic" />
-          </div>
-          <div className="col s12 m12 l6">
-            <img className="materialboxed expandImg responsive-img" src={kitchBath2} alt="Kitchen/Bath 2 Pic" />
-          </div>
-        </div><br />
-        <div className="row">
-          <div className="col s12 m12 l6">
-            <img className="materialboxed expandImg responsive-img" src={kitchBath3} alt="Kitchen/Bath 3 Pic" />
-          </div>
-          <div className="col s12 m12 l6">
-            <img className="materialboxed expandImg responsive-img" src={kitchBath4} alt="Kitchen/Bath 4 Pic" />
-          </div>
-        </div>
-      </div>
-      <br />
-      <h4>Kitchen and bathroom remodels are a wise and prudent investment for your home that will add
-          significant value and pleasure for years to come. Call us for a no obligation consultation.</h4>
-    </div>
-
     <div className="aboutBox">
       <div className="container">
         <h2>ABOUT COMMONWEALTH HOME DESIGN</h2>
@@ -277,29 +289,6 @@ const Home = () => (
     </div>
 
     <div className="aboutImg parallax"></div>
-
-    <div className="saleBox">
-      <h2>SPECIAL ON HIGH QUALITY REPLACEMENT WINDOWS</h2>
-      <h4>TRIPLE GLAZED WINDOWS FOR THE PRICE OF DOUBLE GLAZED</h4>
-
-      <div className="container">
-        <br />
-        <div className="row">
-          <div className="col s8 m8 l8 offset-l2 offset-m2 offset-s2">
-            <img className="materialboxed responsive-img center-align" src={glazedWindows} alt="Glazed Windows Diagram Pic" />
-          </div>
-        </div>
-
-        <p>
-          Get ready for fall and winter with our High Quality replacement thermal window special. We will upgrade
-          your thermal glass from double glazed to triple glazed at no charge to you so you may enjoy the great
-          energy savings with triple glazing. The benefits of low E argon triple glazed replacement windows will
-          save you money and will give you increased comfort year round and are totally maintenance free. We have              many styles to choose from for your individual taste and every style of home. Our premium quality windows
-          will give you peace of mind for years to come. Let us show you the benefits with an in home no cost demonstration.
-        </p>
-
-      </div>
-    </div>
 
     <div className="galleryBox">
       <h2>CLICK BELOW TO VIEW A GALLERY OF PROJECTS</h2>
