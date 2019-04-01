@@ -1,9 +1,8 @@
 import React from 'react';
 
-import guarantee100 from '../assets/images/100guarantee.png';
 import anniversaryLogo from '../assets/images/anniversaryLogo.png';
-import hgtvLogo from '../assets/images/hgtvLogo.png';
-import randrecommended from '../assets/images/randrecommended.png';
+import lawnSign1 from '../assets/images/lawnSign1.pdf';
+import lawnSign2 from '../assets/images/lawnSign2.pdf';
 
 import basement1 from '../assets/images/basement1.jpeg';
 import basement2 from '../assets/images/basement2.jpeg';
@@ -152,18 +151,8 @@ import i12 from '../assets/images/interiorshutters/12.jpg';
 
 const Home = () => (
   <div>
-    <div className="contactBox">
-      <h1>"Our Quality Speaks for Itself"</h1><br />
-      <div className="row">
-          <h2>HAMILTON</h2>
-          <h2>905-572-7283</h2>
-      </div>
-    </div>
-
     <div className="logoBox">
-      <img className="responsive-img logoC" src={guarantee100} alt="100% Guaranteed" />
-      <img className="responsive-img logoC" src={hgtvLogo} alt="HGTV Logo" />
-      <img className="responsive-img logoC" src={randrecommended} alt="Rated & Recommended" />
+      <img src={anniversaryLogo} className="responsive-img annLogo" alt="Anniversary Logo" />
     </div>
 
     <div className="saleBox">
@@ -823,6 +812,23 @@ const Home = () => (
       </div>
 
       <div className="lowerImg parallax"></div>
+
+      <div className="container">
+        <div className="row valign-wrapper">
+
+          <div className="slider">
+              <ul className="slides">
+                <li>
+                  <img src={lawnSign1} alt="Lawn Sign #1" />
+                </li>
+                <li>
+                  <img src={lawnSign2} alt="Lawn Sign #2" />
+                </li>
+              </ul>
+          </div>
+
+        </div>
+      </div>
 
   </div>
 );

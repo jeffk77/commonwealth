@@ -37,9 +37,15 @@ footer {
   text-align: center;
 }
 
-nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox {
+nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox {
   background-color: rgb(48, 111, 170);
   color: white;
+}
+
+.logoBox {
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
 
 .galleryBox {
@@ -65,7 +71,7 @@ nav ul a {
   margin-bottom: 20px;
 }
 
-.logoBox, .specializeBox, .saleBox, .servicesBox {
+.specializeBox, .saleBox, .servicesBox {
   text-align: center;
   background-color: white;
   padding: 50px;
@@ -103,11 +109,11 @@ nav ul a {
 }
 
 .topImg {
-  background-image: url("./assets/images/renovatedKitchen.jpeg");
+  background-image: url("./assets/images/kitchBath3.jpeg");
 }
 
 .aboutImg {
-  background-image: url("./assets/images/renoLivingRoom.jpeg");
+  background-image: url("./assets/images/bathrooms/2.jpg");
 }
 
 .lowerImg {
@@ -151,4 +157,17 @@ nav ul a {
 
 .servicesBox p {
   font-size: 1.25em;
+}
+
+.nav-wrapper a {
+  font-size: 1.5em;
+}
+
+.annLogo {
+  width: 400px;
+}
+
+.material-icons {
+  vertical-align: text-bottom;
+  padding-right: 5px;
 }
