@@ -178,6 +178,10 @@ const Home = () => (
       </div>
     </div>
 
+    <div className="noteBox">
+      <h4>OUR QUALITY SPEAKS FOR ITSELF</h4>
+    </div>
+
     <div className="specializeBox">
       <div className="container">
         <h2>WE SPECIALIZE IN KITCHEN, BATHROOM REMODELS & BASEMENT REFINISHING</h2>
@@ -243,10 +247,10 @@ const Home = () => (
 
     <div className="aboutBox">
       <div className="container">
-        <h2>ABOUT COMMONWEALTH HOME DESIGN</h2>
+        <h2>ABOUT COMMONWEALTH HOME DESIGNS</h2>
         <br />
         <p>
-          At Commonwealth Home Design we pledge to satisfy you and make your living space unique to your
+          At Commonwealth Home Designs we pledge to satisfy you and make your living space unique to your
           personal lifestyle.
 
           We will cater to your every need to ensure our project exceeds your expectations and brings rave
