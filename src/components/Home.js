@@ -1,8 +1,9 @@
 import React from 'react';
 
 import anniversaryLogo from '../assets/images/anniversaryLogo.png';
-import lawnSign1 from '../assets/images/lawnSign1.pdf';
-import lawnSign2 from '../assets/images/lawnSign2.pdf';
+
+import lawnSign1 from '../assets/images/lawnSign1.png';
+import lawnSign2 from '../assets/images/lawnSign2.png';
 
 import basement1 from '../assets/images/basement1.jpeg';
 import basement2 from '../assets/images/basement2.jpeg';
@@ -815,25 +816,20 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="lowerImg parallax"></div>
-
-      <div className="container">
-        <div className="row valign-wrapper">
-
-          <div className="slider">
-              <ul className="slides">
-                <li>
-                  <img src={lawnSign1} alt="Lawn Sign #1" />
-                </li>
-                <li>
-                  <img src={lawnSign2} alt="Lawn Sign #2" />
-                </li>
-              </ul>
+      <div className="signBox">
+        <div className="row">
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={lawnSign1} alt="Lawn Sign 1" />
           </div>
-
+          <div className="col s12 m12 l6">
+            <img className="materialboxed expandImg responsive-img" src={lawnSign2} alt="Lawn Sign 2" />
+          </div>
         </div>
+        <br />
+        <h4>Let us put a COMMONWEALTH HOME DESIGNS sign on your lawn and a SMILE<br />on your face with a beautiful KITCHEN or BATHROOM remodel!</h4>
       </div>
 
+      
   </div>
 );
 

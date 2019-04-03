@@ -37,7 +37,7 @@ footer {
   text-align: center;
 }
 
-nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox {
+nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox, .signBox {
   background-color: rgb(48, 111, 170);
   color: white;
 }
@@ -64,6 +64,12 @@ nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox {
 .noteBox {
   text-align: center;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.signBox {
+  text-align: center;
+  padding: 50px;
   margin-bottom: 20px;
 }
 
@@ -176,4 +182,8 @@ nav ul a {
 .material-icons {
   vertical-align: text-bottom;
   padding-right: 5px;
+}
+
+.signBox .slides {
+  height: 800px;
 }
