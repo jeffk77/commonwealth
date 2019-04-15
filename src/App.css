@@ -29,7 +29,7 @@ header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 50px 30px;
+  padding: 75px 30px;
 }
 
 footer {
@@ -42,10 +42,21 @@ nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox, 
   color: white;
 }
 
+.contactBar {
+  background-color: rgb(50,50,50);
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+}
+
 .logoBox {
-  text-align: center;
-  padding-top: 40px;
   margin-bottom: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+.left, .right {
+  padding: 50px;
 }
 
 .galleryBox {
@@ -121,11 +132,11 @@ nav ul a {
 }
 
 .topImg {
-  background-image: url("./assets/images/kitchBath3.jpeg");
+  background-image: url("./assets/images/kitchens/1.jpg");
 }
 
 .aboutImg {
-  background-image: url("./assets/images/bathrooms/2.jpg");
+  background-image: url("./assets/images/bathrooms/9.jpg");
 }
 
 .lowerImg {
@@ -173,10 +184,6 @@ nav ul a {
 
 .nav-wrapper a {
   font-size: 1.5em;
-}
-
-.annLogo {
-  width: 400px;
 }
 
 .material-icons {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import anniversaryLogo from '../assets/images/anniversaryLogo.png';
+import ann45 from '../assets/images/45anniversary.png';
 
 import lawnSign1 from '../assets/images/lawnSign1.png';
 import lawnSign2 from '../assets/images/lawnSign2.png';
@@ -71,6 +71,7 @@ import b5 from '../assets/images/bathrooms/5.jpg';
 import b6 from '../assets/images/bathrooms/6.jpg';
 import b7 from '../assets/images/bathrooms/7.jpg';
 import b8 from '../assets/images/bathrooms/8.jpg';
+import b9 from '../assets/images/bathrooms/9.jpg';
 
 import bt1 from '../assets/images/basements/1.jpg';
 import bt2 from '../assets/images/basements/2.jpg';
@@ -153,11 +154,20 @@ import i12 from '../assets/images/interiorshutters/12.jpg';
 const Home = () => (
   <div>
     <div className="logoBox">
-      <img src={anniversaryLogo} className="responsive-img annLogo" alt="Anniversary Logo" />
+      <div className="left hide-on-med-and-down">
+        <h1>1979</h1>
+      </div>
+
+      <img src={ann45} className="responsive-img" alt="Anniversary Logo" />
+
+      <div className="right hide-on-med-and-down">
+        <h1>2019</h1>
+      </div>
     </div>
 
     <div className="saleBox">
-      <h2>SPECIAL ON HIGH QUALITY REPLACEMENT WINDOWS</h2>
+      <h1>** SPRING SPECIAL **</h1>
+      <h2>HIGH QUALITY REPLACEMENT WINDOWS</h2>
       <h4>TRIPLE GLAZED WINDOWS FOR THE PRICE OF DOUBLE GLAZED</h4>
 
       <div className="container">
@@ -169,18 +179,19 @@ const Home = () => (
         </div>
 
         <p>
-          Get ready for fall and winter with our High Quality replacement thermal window special. We will upgrade
-          your thermal glass from double glazed to triple glazed at no charge to you so you may enjoy the great
+          We will upgrade your thermal glass from double glazed to triple glazed at no charge to you so you may enjoy the great
           energy savings with triple glazing. The benefits of low E argon triple glazed replacement windows will
-          save you money and will give you increased comfort year round and are totally maintenance free. We have              many styles to choose from for your individual taste and every style of home. Our premium quality windows
-          will give you peace of mind for years to come. Let us show you the benefits with an in home no cost demonstration.
+          save you money and will give you increased comfort year round and are totally maintenance free. We have
+          many styles to choose from for your individual taste and every style of home. Our premium quality windows
+          will give you peace of mind for years to come. Let us show you the benefits with an in home no cost 
+          demonstration. Our window replacements carry a limited lifetime warranty.
         </p>
 
       </div>
     </div>
 
     <div className="noteBox">
-      <h4>OUR QUALITY SPEAKS FOR ITSELF</h4>
+      <h4>"OUR QUALITY SPEAKS FOR ITSELF"</h4>
     </div>
 
     <div className="specializeBox">
@@ -211,13 +222,14 @@ const Home = () => (
 
     <div className="bonusBox">
       <div className="container">
-        <h2>BONUS OFFERING</h2>
+        <h2 className="center-align">** BONUS OFFERING **</h2>
+        <h3 className="center-align">FREE 55" HDTV</h3>
         <p>
-          Watch your favourite T.V. shows and T.V. series or get ready for an exciting new hockey
-          season with our beloved Toronto Maple Leafs or your personal favourite NHL team on us
-          with your new 55” Brand Name High Definition TV as a bonus when you let us do a complete
-          basement finishing for you. Our professional crews will turn your unused area into a
-          beautiful and functional part of your home.<br /><br />
+          Watch your favourite T.V. shows and T.V. series on us with your new 55” Brand Name High
+          Definition TV as a bonus when you let us do a complete basement finishing for you. Our
+          professional crews will turn your unused area into a beautiful and functional part of your home.
+          
+          <br /><br />
 
           We are specialists in design and finishing of basement areas that will add a truly fabulous
           new living space for entertaining, personal pleasure or add a private space for a family
@@ -455,6 +467,9 @@ const Home = () => (
                 </li>
                 <li>
                   <img src={b8} alt="Bathroom Gallery" />
+                </li>
+                <li>
+                  <img src={b9} alt="Bathroom Gallery" />
                 </li>
               </ul>
           </div>
