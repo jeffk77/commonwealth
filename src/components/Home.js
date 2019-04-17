@@ -258,6 +258,8 @@ const Home = () => (
       </div>
     </div>
 
+    <a name="aboutUs"> </a>
+
     <div className="aboutBox">
       <div className="container">
         <h2>ABOUT COMMONWEALTH HOME DESIGNS</h2>
@@ -295,6 +297,8 @@ const Home = () => (
     </div>
 
     <div className="aboutImg parallax"></div>
+
+    <a name="galleries"> </a>
 
     <div className="galleryBox">
       <h2>CLICK BELOW TO VIEW A GALLERY OF PROJECTS</h2>

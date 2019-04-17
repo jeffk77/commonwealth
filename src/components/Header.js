@@ -20,8 +20,8 @@ const Header = () => (
       <div className="nav-wrapper">
         <ul>
           <li><a href="home.html">HOME</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
-          <li><a href="galleries.html">GALLERIES</a></li>
+          <li><a href="#aboutUs">ABOUT US</a></li>
+          <li><a href="#galleries">GALLERIES</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </div>

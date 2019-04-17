@@ -32,12 +32,8 @@ header {
   padding: 75px 30px;
 }
 
-footer {
-  padding: 20px;
-  text-align: center;
-}
 
-nav, footer, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox, .signBox {
+nav, .infoBar, .contactBox, .aboutBox, .galleryBox, .logoBox, .noteBox, .signBox {
   background-color: rgb(48, 111, 170);
   color: white;
 }
@@ -193,4 +189,24 @@ nav ul a {
 
 .signBox .slides {
   height: 800px;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  background-image: url("./assets/images/hardwoodFloors.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footerBar {
+  background-color: rgb(50,50,50);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+footer .logo {
+  margin: 40px 20px;
+  width: 300px;
 }
