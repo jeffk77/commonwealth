@@ -845,7 +845,8 @@ const Home = () => (
           </div>
         </div>
         <br />
-        <h4>Let us put a COMMONWEALTH HOME DESIGNS sign on your lawn and a SMILE<br />on your face with a beautiful KITCHEN or BATHROOM remodel!</h4>
+        <h4>Let us put a COMMONWEALTH HOME DESIGNS sign on your lawn and a SMILE<br />
+        on your face with a beautiful KITCHEN • BATHROOM • BASEMENT remodel!</h4>
       </div>
 
       

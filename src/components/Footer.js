@@ -5,7 +5,7 @@ import commonwealthLogo from '../assets/images/commonwealthLogo.png';
 const Footer = () => (
   <div>
     <div className="footerBar">
-      <h6>45 YEARS EXPERIENCE • 1974 - 2019 • LICENSED AND INSURED</h6>
+      <h6>45 YEARS EXPERIENCE • 1974 - 2019 • LICENSED AND INSURED • HAMILTON LICENSE #1154</h6>
     </div>
 
     <footer>
