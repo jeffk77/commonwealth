@@ -155,7 +155,7 @@ const Home = () => (
   <div>
     <div className="logoBox">
       <div className="left hide-on-med-and-down">
-        <h1>1979</h1>
+        <h1>1974</h1>
       </div>
 
       <img src={ann45} className="responsive-img" alt="Anniversary Logo" />

@@ -34,7 +34,7 @@ const Header = () => (
     <div className="infoBar">
       <div className="row valign-wrapper">
         <div className="col m4 l4 left-align hide-on-med-and-down">
-          
+          <a href="https://www.facebook.com/commonwealthhomedesigns/"><img className="responsive-img" src={followFB} alt="" /></a>
         </div>
         <div className="col s12 m12 l4">
           <h5>"OUR QUALITY SPEAKS FOR ITSELF"</h5>
